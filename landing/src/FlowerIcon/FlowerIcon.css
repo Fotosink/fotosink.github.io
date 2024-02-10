@@ -1,0 +1,18 @@
+.flower-icon,
+.flower-icon * {
+  box-sizing: border-box;
+}
+.flower-icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.flower-icon .flower-icon-instance {
+  position: absolute !important;
+  right: 0% !important;
+  left: 0% !important;
+  width: 100% !important;
+  bottom: 0% !important;
+  top: 0% !important;
+  height: 100% !important;
+}

@@ -1,0 +1,46 @@
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off,
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off
+  * {
+  box-sizing: border-box;
+}
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off
+  .components-page-box-image-instance {
+  flex-shrink: 0 !important;
+}
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off
+  .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off
+  .h-3 {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: center;
+  font-family: "PingFangSc-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.components-page-box-dark-off-button-off-text-bottom-on-text-right-off-text-left-off
+  .p {
+  color: var(--character-secondary-45, rgba(0, 0, 0, 0.45));
+  text-align: center;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+}

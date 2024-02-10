@@ -1,0 +1,17 @@
+.layout-blocks-vertical-2-backup,
+.layout-blocks-vertical-2-backup * {
+  box-sizing: border-box;
+}
+.layout-blocks-vertical-2-backup {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 32px;
+  position: relative;
+}
+.layout-blocks-vertical-2-backup .layout-blocks-base-instance {
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}

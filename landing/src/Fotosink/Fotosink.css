@@ -1,0 +1,552 @@
+.fotosink,
+.fotosink * {
+  box-sizing: border-box;
+}
+.fotosink {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.fotosink .features {
+  background: var(--geek-blue-6, #2f54eb);
+  padding: 88px 144px 88px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .components-content-h-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 700px;
+  position: relative;
+}
+.fotosink .h-1 {
+  color: var(--neutral-1, #ffffff);
+  text-align: center;
+  font-family: var(--h-1-font-family, "PingFangSc-Medium", sans-serif);
+  font-size: var(--h-1-font-size, 30px);
+  line-height: var(--h-1-line-height, 38px);
+  font-weight: var(--h-1-font-weight, 500);
+  position: relative;
+}
+.fotosink .components-page-row {
+  display: flex;
+  flex-direction: row;
+  gap: 124px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .components-page-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.fotosink .components-page-box-image {
+  background: #ffffff;
+  border-radius: 69px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fotosink .page-icon {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: relative;
+  overflow: hidden;
+}
+.fotosink .group-66 {
+  height: auto;
+  position: absolute;
+  right: 10.71%;
+  left: 10.71%;
+  width: 78.57%;
+  bottom: 10.71%;
+  top: 10.71%;
+  height: 78.57%;
+  overflow: visible;
+}
+.fotosink .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .h-3 {
+  color: var(--neutral-1, #ffffff);
+  text-align: center;
+  font-family: "PingFangSc-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .p {
+  color: var(--neutral-2, #fafafa);
+  text-align: center;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .components-page-box-image2 {
+  background: #ffffff;
+  border-radius: 60px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .page-icon2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fotosink .group-65 {
+  height: auto;
+  position: absolute;
+  right: 11.45%;
+  left: 10.71%;
+  width: 77.84%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.fotosink .page-icon3 {
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.fotosink .group-64 {
+  height: auto;
+  position: absolute;
+  right: 5.36%;
+  left: 5.36%;
+  width: 89.29%;
+  bottom: 5.36%;
+  top: 5.36%;
+  height: 89.29%;
+  overflow: visible;
+}
+.fotosink .technical {
+  background: #eceff3;
+  padding: 88px 144px 128px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .components-content-h-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .h-12 {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: center;
+  font-family: var(--h-1-font-family, "PingFangSc-Medium", sans-serif);
+  font-size: var(--h-1-font-size, 30px);
+  line-height: var(--h-1-line-height, 38px);
+  font-weight: var(--h-1-font-weight, 500);
+  position: relative;
+}
+.fotosink .components-page-row2 {
+  background: var(--neutral-1, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 12px 20px 0px rgba(216, 224, 230, 1);
+}
+.fotosink .components-page-box2 {
+  background: var(--geek-blue-6, #2f54eb);
+  padding: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.fotosink .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.fotosink .h-32 {
+  color: var(--neutral-1, #ffffff);
+  text-align: left;
+  font-family: var(--h-2-font-family, "PingFangSc-Medium", sans-serif);
+  font-size: var(--h-2-font-size, 24px);
+  line-height: var(--h-2-line-height, 32px);
+  font-weight: var(--h-2-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .layout-blocks-vertical-2-backup-instance {
+  padding: 128px 0px 0px 0px !important;
+  gap: 24px !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+  width: unset !important;
+}
+.fotosink .layout-blocks-vertical-3-backup {
+  padding: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.fotosink .components-page-box3 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .page-icon4 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.fotosink .div {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  overflow: visible;
+}
+.fotosink .content3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.fotosink .h-33 {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font-family: var(--h-3-font-family, "PingFangSc-Medium", sans-serif);
+  font-size: var(--h-3-font-size, 18px);
+  line-height: var(--h-3-line-height, 36px);
+  font-weight: var(--h-3-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .p2 {
+  color: var(--character-secondary-45, rgba(0, 0, 0, 0.45));
+  text-align: left;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .dropdown-trigger {
+  border-radius: 2px;
+  padding: 1px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fotosink .title {
+  color: var(--geek-blue-6, #2f54eb);
+  text-align: left;
+  font-family: var(--body-14-regular-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-14-regular-font-size, 14px);
+  line-height: var(--body-14-regular-line-height, 22px);
+  font-weight: var(--body-14-regular-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fotosink .icon-wrapper2 {
+  flex-shrink: 0;
+  width: 10px;
+  height: 11.25px;
+  position: relative;
+  overflow: visible;
+}
+.fotosink .dropdown-trigger-instance3 {
+  padding: 1px 0px 1px 0px !important;
+  gap: 2px !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+  background: unset !important;
+  border-style: unset !important;
+  border-color: unset !important;
+  border-width: unset !important;
+  box-shadow: unset !important;
+}
+.fotosink .div2 {
+  height: auto;
+  position: absolute;
+  right: 16.84%;
+  left: 17.86%;
+  width: 65.31%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.fotosink .div3 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.fotosink .cta {
+  background: #ffffff;
+  padding: 128px 0px 128px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .button-group-instance {
+  background: #ffffff !important;
+  justify-content: center !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+  height: 45px !important;
+}
+.fotosink .flower-instance {
+  flex-shrink: 0 !important;
+  width: 396px !important;
+  height: 396px !important;
+}
+.fotosink .highlights {
+  background: var(--neutral-1, #ffffff);
+  padding: 88px 144px 88px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .components-page-row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .components-page-box4 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.fotosink .page-icon5 {
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 8.96%;
+  top: 8.33%;
+  height: 82.71%;
+  overflow: visible;
+}
+.fotosink .h-34 {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font-family: "PingFangSc-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.fotosink .group-63 {
+  height: auto;
+  position: absolute;
+  right: 12.5%;
+  left: 12.5%;
+  width: 75%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.fotosink .group2 {
+  height: auto;
+  position: absolute;
+  right: 4.33%;
+  left: 5.56%;
+  width: 90.12%;
+  bottom: 9.72%;
+  top: 9.72%;
+  height: 80.56%;
+  overflow: visible;
+}
+.fotosink .components-page-box-image3 {
+  background: #ffffff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fotosink .group-652 {
+  height: auto;
+  position: absolute;
+  right: 11.45%;
+  left: 10.71%;
+  width: 77.84%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.fotosink .h-35 {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font-family: "PingFangSc-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+
+/* nested override styles */
+.fotosink .dropdown-trigger-instance {
+  padding: 1px 0px 1px 0px !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+  background: unset !important;
+  border-style: unset !important;
+  border-color: unset !important;
+  border-width: unset !important;
+}
+.fotosink .dropdown-trigger-instance2 {
+  padding: 1px 0px 1px 0px !important;
+  flex-shrink: 0 !important;
+  background: unset !important;
+  border-style: unset !important;
+  border-color: unset !important;
+  border-width: unset !important;
+}
+.fotosink .button-instance {
+  background: var(--geek-blue-6, #2f54eb) !important;
+  border-radius: 36px !important;
+  border-color: var(--geek-blue-6, #2f54eb) !important;
+  padding: 8px 24px 8px 24px !important;
+  flex-shrink: 0 !important;
+}
+.fotosink .button-instance2 {
+  border-radius: 36px !important;
+  border-color: var(--geek-blue-6, #2f54eb) !important;
+  padding: 8px 24px 8px 24px !important;
+  flex-shrink: 0 !important;
+  background: unset !important;
+}

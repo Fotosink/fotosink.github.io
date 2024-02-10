@@ -1,0 +1,129 @@
+.page,
+.page * {
+  box-sizing: border-box;
+}
+.page {
+  background: var(--geek-blue-6, #2f54eb);
+  padding: 88px 144px 88px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.page .components-content-h-1-instance {
+  flex-shrink: 0 !important;
+  width: 700px !important;
+}
+.page .components-page-row {
+  display: flex;
+  flex-direction: row;
+  gap: 124px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.page .components-page-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.page .components-page-box-image {
+  background: #ffffff;
+  border-radius: 69px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.page .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.page .page-icon {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: relative;
+  overflow: hidden;
+}
+.page .group-66 {
+  height: auto;
+  position: absolute;
+  right: 10.71%;
+  left: 10.71%;
+  width: 78.57%;
+  bottom: 10.71%;
+  top: 10.71%;
+  height: 78.57%;
+  overflow: visible;
+}
+.page .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.page .h-3 {
+  color: var(--neutral-1, #ffffff);
+  text-align: center;
+  font-family: "PingFangSc-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.page .p {
+  color: var(--neutral-2, #fafafa);
+  text-align: center;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.page .components-page-box-instance {
+  flex: 1 !important;
+}
+.page .components-page-box-image2 {
+  background: #ffffff;
+  border-radius: 60px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.page .page-icon2 {
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}

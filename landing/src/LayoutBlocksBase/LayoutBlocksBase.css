@@ -1,0 +1,35 @@
+.layout-blocks-base,
+.layout-blocks-base * {
+  box-sizing: border-box;
+}
+.layout-blocks-base {
+  background: var(--daybreak-blue-1, #e6f7ff);
+  border-style: dashed;
+  border-color: var(--daybreak-blue-3, #91d5ff);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.layout-blocks-base .label {
+  color: var(--daybreak-blue-6, #1890ff);
+  text-align: center;
+  font-family: var(
+    --footnote-12-description-font-family,
+    "Roboto-Regular",
+    sans-serif
+  );
+  font-size: var(--footnote-12-description-font-size, 12px);
+  line-height: var(--footnote-12-description-line-height, 20px);
+  font-weight: var(--footnote-12-description-font-weight, 400);
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

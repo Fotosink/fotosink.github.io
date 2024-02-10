@@ -1,0 +1,10 @@
+.icon-down,
+.icon-down * {
+  box-sizing: border-box;
+}
+.icon-down {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}

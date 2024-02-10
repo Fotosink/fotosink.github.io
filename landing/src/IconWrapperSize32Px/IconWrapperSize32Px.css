@@ -1,0 +1,21 @@
+.icon-wrapper-size-32-px,
+.icon-wrapper-size-32-px * {
+  box-sizing: border-box;
+}
+.icon-wrapper-size-32-px {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.icon-wrapper-size-32-px .icon-figma-component-instance {
+  align-self: stretch !important;
+  flex: 1 !important;
+  height: auto !important;
+  width: unset !important;
+}

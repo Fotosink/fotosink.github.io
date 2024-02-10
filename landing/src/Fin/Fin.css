@@ -1,0 +1,40 @@
+.fin,
+.fin * {
+  box-sizing: border-box;
+}
+.fin {
+  height: 261px;
+  position: relative;
+}
+.fin .ellipse-41 {
+  background: #f1de79;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  left: 0%;
+  width: 50%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.fin .ellipse-42 {
+  background: #f1de79;
+  border-radius: 50%;
+  position: absolute;
+  right: 0%;
+  left: 50%;
+  width: 50%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.fin .rectangle-22 {
+  background: #f1de79;
+  position: absolute;
+  right: 25.29%;
+  left: 25.1%;
+  width: 49.62%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}

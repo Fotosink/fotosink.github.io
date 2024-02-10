@@ -1,0 +1,11 @@
+.icon-figma-component,
+.icon-figma-component * {
+  box-sizing: border-box;
+}
+.icon-figma-component {
+  align-self: stretch;
+  flex: 1;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}

@@ -1,0 +1,114 @@
+.flower,
+.flower * {
+  box-sizing: border-box;
+}
+.flower {
+  height: 1064px;
+  position: relative;
+}
+.flower .fin-instance {
+  position: absolute !important;
+  right: 50.94% !important;
+  left: 0% !important;
+  width: 49.06% !important;
+  bottom: 37.78% !important;
+  top: 37.69% !important;
+  height: 24.53% !important;
+}
+.flower .fin-instance2 {
+  position: absolute !important;
+  right: 13.25% !important;
+  left: 37.69% !important;
+  width: 49.06% !important;
+  bottom: -24.53% !important;
+  top: 100% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(-90deg) scale(1, 1) !important;
+}
+.flower .fin-instance3 {
+  position: absolute !important;
+  right: 44.92% !important;
+  left: 6.02% !important;
+  width: 49.06% !important;
+  bottom: -1.23% !important;
+  top: 76.7% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(-45deg) scale(1, 1) !important;
+}
+.flower .fin-instance4 {
+  position: absolute !important;
+  right: 8.93% !important;
+  left: 42.01% !important;
+  width: 49.06% !important;
+  bottom: 34.95% !important;
+  top: 40.52% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(-45deg) scale(1, 1) !important;
+}
+.flower .fin-instance5 {
+  position: absolute !important;
+  right: -8.42% !important;
+  left: 59.36% !important;
+  width: 49.06% !important;
+  bottom: 33.55% !important;
+  top: 41.92% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(45deg) scale(1, 1) !important;
+}
+.flower .fin-instance6 {
+  position: absolute !important;
+  right: 27.67% !important;
+  left: 23.27% !important;
+  width: 49.06% !important;
+  bottom: 69.64% !important;
+  top: 5.83% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(45deg) scale(1, 1) !important;
+}
+.flower .fin-instance7 {
+  position: absolute !important;
+  right: 13.25% !important;
+  left: 37.69% !important;
+  width: 49.06% !important;
+  bottom: 26.41% !important;
+  top: 49.06% !important;
+  height: 24.53% !important;
+  transform-origin: 0 0 !important;
+  transform: rotate(-90deg) scale(1, 1) !important;
+}
+.flower .fin-instance8 {
+  position: absolute !important;
+  right: 0% !important;
+  left: 50.94% !important;
+  width: 49.06% !important;
+  bottom: 37.78% !important;
+  top: 37.69% !important;
+  height: 24.53% !important;
+}
+.flower .ellipse-45 {
+  background: #353125;
+  border-radius: 50%;
+  position: absolute;
+  right: 37.78%;
+  left: 37.69%;
+  width: 24.53%;
+  bottom: 37.97%;
+  top: 37.41%;
+  height: 24.62%;
+}
+.flower .ellipse-44 {
+  background: #000000;
+  border-radius: 50%;
+  position: absolute;
+  right: 39.1%;
+  left: 39%;
+  width: 21.9%;
+  bottom: 39.38%;
+  top: 38.72%;
+  height: 21.9%;
+}
