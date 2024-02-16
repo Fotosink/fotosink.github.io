@@ -60,6 +60,7 @@
   justify-content: center;
   flex: 1;
   position: relative;
+  margin: 0em 2em;
 }
 .fotosink .components-page-box-image {
   background: #ffffff;
@@ -310,6 +311,16 @@
   position: relative;
   align-self: stretch;
 }
+.fotosink .p3 {
+  color: var(--neutral-1, #ffffff);
+  text-align: left;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
 .fotosink .p2 {
   color: var(--character-secondary-45, rgba(0, 0, 0, 0.45));
   text-align: left;
@@ -319,6 +330,15 @@
   font-weight: var(--p-font-weight, 400);
   position: relative;
   align-self: stretch;
+}
+.fotosink .p1 {
+  color: var(--character-secondary-45, rgba(0, 0, 0, 0.45));
+  text-align: center;
+  font-family: var(--p-font-family, "PingFangSc-Regular", sans-serif);
+  font-size: var(--p-font-size, 14px);
+  line-height: var(--p-line-height, 28px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
 }
 .fotosink .dropdown-trigger {
   border-radius: 2px;
@@ -397,6 +417,9 @@
   flex-shrink: 0;
   position: relative;
 }
+.fotosink .cta .button {
+  border-radius: 36px;
+}
 .fotosink .button-group-instance {
   background: #ffffff !important;
   justify-content: center !important;
@@ -410,16 +433,26 @@
   height: 396px !important;
 }
 .fotosink .highlights {
-  background: var(--neutral-1, #ffffff);
+  background: #000;
   padding: 88px 144px 88px 144px;
   display: flex;
   flex-direction: column;
-  gap: 64px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  width: 100%;
+  /* gap: 64px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-self: stretch; */
+  /* flex-shrink: 0; */
+  /* position: relative; */
+}
+.fotosink .highlights div, .fotosink .highlights a {
+  color: #fff;
+}
+.fotosink .highlights div.column > div {
+  margin-bottom: 1em;
+}
+.fotosink .highlights div.column > div:first-child  {
+  font-weight: bold;
 }
 .fotosink .components-page-row3 {
   display: flex;

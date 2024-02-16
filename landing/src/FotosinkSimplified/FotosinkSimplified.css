@@ -12,12 +12,12 @@
   overflow: hidden;
 }
 .banner {
-  /* background: var(--neutral-1, #ffffff); */
+  background: var(--neutral-1, #ffffff);
   /* background-image: url('josh-calabrese-XXpbdU_31Sg-unsplash.jpg'); */
   /* background-image: url('aaron-burden-UvRMcIeXq9Y-unsplash.jpg'); */
-  background-image: url('zhen-h-dO5quaqAYg0-unsplash.jpg');
-  background-size: cover;
-  background-position: bottom 0px right 0px;
+  /* background-image: url('zhen-h-dO5quaqAYg0-unsplash.jpg'); */
+  /* background-size: cover; */
+  /* background-position: bottom 0px right 0px; */
 }
 .fotosink-simplified .banner {
   padding: 88px 144px 88px 144px;
@@ -122,10 +122,10 @@
   position: relative;
 }
 .fotosink-simplified .button {
-  background: var(--geek-blue-6, #2f54eb);
+  /* background: var(--geek-blue-6, #2f54eb); */
   border-radius: 36px;
   border-style: solid;
-  border-color: var(--geek-blue-6, #2f54eb);
+  /* border-color: var(--geek-blue-6, #2f54eb); */
   border-width: 1px;
   padding: 5px 16px 5px 16px;
   display: flex;

@@ -5,6 +5,7 @@
 .fin {
   height: 261px;
   position: relative;
+  mix-blend-mode: multiply;
 }
 .fin .ellipse-41 {
   background: #f1de79;
