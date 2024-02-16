@@ -21,7 +21,8 @@ export const FotosinkSimplified = ({ className, ...props }) => {
           </div>
           <ButtonGroupCTA/>
         </div>
-        <img className="image" src="image0.png"/>
+        {/*<img className="image" src="image0.png"/>*/}
+        <img className="image" src="https://f001.backblazeb2.com/file/fotosink-media/image0.png"/>
       </div>
     </div>
   );
