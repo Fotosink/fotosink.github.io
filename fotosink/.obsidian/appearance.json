@@ -1,0 +1,8 @@
+{
+  "accentColor": "#e4c139",
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "callout"
+  ]
+}

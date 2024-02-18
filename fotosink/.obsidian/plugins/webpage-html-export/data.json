@@ -1,0 +1,42 @@
+{
+  "inlineCSS": false,
+  "inlineJS": false,
+  "inlineImages": false,
+  "includePluginCSS": "",
+  "includeSvelteCSS": true,
+  "makeNamesWebStyle": true,
+  "allowFoldingHeadings": true,
+  "sidebarsAlwaysCollapsible": false,
+  "addFilenameTitle": true,
+  "minifyHTML": true,
+  "customLineWidth": "",
+  "contentWidth": "",
+  "sidebarWidth": "",
+  "startOutlineCollapsed": false,
+  "logLevel": "warning",
+  "incrementalExport": false,
+  "deleteOldExportedFiles": true,
+  "addDarkModeToggle": true,
+  "includeOutline": true,
+  "includeGraphView": true,
+  "includeFileTree": true,
+  "exportPreset": "website",
+  "openAfterExport": false,
+  "graphAttractionForce": 1,
+  "graphLinkLength": 10,
+  "graphRepulsionForce": 150,
+  "graphCentralForce": 3,
+  "graphEdgePruning": 100,
+  "graphMinNodeSize": 3,
+  "graphMaxNodeSize": 7,
+  "exportPath": "/Users/sachin/drive/projects/fotosink/fotosink/notes",
+  "filesToExport": [
+    [
+      "Guides/Sync Obsidian Vault.md",
+      "Overview/About Us.md",
+      "Overview/Apps.md",
+      "Overview/Pricing.md",
+      "Overview/Reliability.md"
+    ]
+  ]
+}
