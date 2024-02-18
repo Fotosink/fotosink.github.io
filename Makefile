@@ -6,3 +6,4 @@ build:
 	rm -rf docs/*
 	cp -r landing/dist/* docs/
 	cp -r build/* docs/
+	echo 'fotosink.com' > docs/CNAME
