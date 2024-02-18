@@ -29,14 +29,18 @@
   "graphEdgePruning": 100,
   "graphMinNodeSize": 3,
   "graphMaxNodeSize": 7,
-  "exportPath": "/Users/sachin/drive/projects/fotosink/fotosink/notes",
+  "exportPath": "/Users/sachin/drive/projects/fotosink/fotosink/build",
   "filesToExport": [
     [
       "Guides/Sync Obsidian Vault.md",
       "Overview/About Us.md",
       "Overview/Apps.md",
+      "Overview/Downloads.md",
+      "Overview/FAQ.md",
       "Overview/Pricing.md",
-      "Overview/Reliability.md"
+      "Overview/Privacy Policy.md",
+      "Overview/Reliability.md",
+      "Overview/Terms & Conditions.md"
     ]
   ]
 }

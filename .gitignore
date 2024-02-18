@@ -2,3 +2,4 @@ node_modules
 .vite
 *.swp
 build
+landing/dist

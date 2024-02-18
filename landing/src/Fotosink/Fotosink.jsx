@@ -256,22 +256,22 @@ export const Fotosink = ({ className, ...props }) => {
         <Columns>
           <Columns.Column size={"auto"}>
             <div>Sitemap</div>
-            <div><a>About</a></div>
-            <div><a>Architecture</a></div>
-            <div><a>Contact Us</a></div>
-            <div><a>Documentation</a></div>
-            <div><a>Downloads</a></div>
-            <div><a>FAQ</a></div>
-            <div><a>Pricing</a></div>
-            <div><a>Privacy Policy</a></div>
-            <div><a>Terms and Conditions</a></div>
+            <div><a href="overview/about-us.html">About</a></div>
+            <div><a href="overview/reliability.html">Architecture</a></div>
+            <div><a href="overview/about-us.html">Contact Us</a></div>
+            <div><a href="overview/apps.html">Documentation</a></div>
+            <div><a href="overview/downloads.html">Downloads</a></div>
+            <div><a href="overview/faq.html">FAQ</a></div>
+            <div><a href="overview/pricing.html">Pricing</a></div>
+            <div><a href="overview/privacy-policy.html">Privacy Policy</a></div>
+            <div><a href="overview/terms-&-conditions.html">Terms and Conditions</a></div>
           </Columns.Column>
           <Columns.Column size={"auto"} className="has-text-right">
             <div>External</div>
-            <div><a>Github</a></div>
-            <div><a>But Report</a></div>
-            <div><a>Instagram</a></div>
-            <div><a>Blog</a></div>
+            <div><a href="https://github.com/Fotosink/">Github</a></div>
+            <div><a href="">Bug Report</a></div>
+            <div><a href="">Instagram</a></div>
+            <div><a href="">Blog</a></div>
           </Columns.Column>
         </Columns>
       </div>
