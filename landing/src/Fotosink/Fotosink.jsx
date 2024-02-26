@@ -13,7 +13,7 @@ import { Flower } from "../Flower/Flower.jsx";
 import { Features } from "./Features.jsx";
 import { Section, Container, Columns } from 'react-bulma-components';
 
-const content = "Fotosink runs on battle tested and reliable open source software and a tiered storage model to provide fault tolerance and data redundancy, while still being faster and cheaper than competitors. It runs on battle tested apps like Seafile and Immich that are used by millions of users worldwide.";
+const content = "Fotosink runs on battle tested and reliable open source software and a tiered storage model to provide fault tolerance and data redundancy, while still being faster and cheaper than competitors. It runs on battle tested apps that are used by millions of users worldwide.";
 
 const DesktopAppIcon = () => (
   <svg

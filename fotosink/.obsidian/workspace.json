@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reliability.md",
+                "file": "Overview/Apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apps.md",
+                "file": "Overview/Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apps.md",
+                "file": "Overview/Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apps.md"
+                "file": "Overview/Apps.md"
               }
             }
           }
@@ -148,45 +148,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "1cee2721c18f953e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2f677420df6e01ef",
-        "type": "window",
-        "children": [
-          {
-            "id": "01af0f870cc25dc2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fc9e7c6d9dc4c458",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Apps.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 670,
-        "y": 556,
-        "width": 800,
-        "height": 400,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "fc9e7c6d9dc4c458",
+  "active": "fcd77f9ac63a4d41",
   "lastOpenFiles": [
+    "Overview/About Us.md",
+    "Overview/Apps.md",
     "About.md",
     "Guides/Sync Your Obsidian Vault.md",
     "Reliability.md",

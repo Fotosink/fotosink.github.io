@@ -1,4 +1,4 @@
-Fotosink comes with multiple apps to let you do more with your data.
+Fotosink comes with various apps that let you do more with your data.
 
 # Photo & Video Storage
 
@@ -10,23 +10,17 @@ Share photo albums within your family and friends. You can share in the followin
 - Share with a password-protected link
 - Share with a public link
 
-> [!powered-by] Powered by Immich
-
 # File Storage
 
 Sync and backup files from your desktop and phone. You can choose which folders you want to keep synced on each of your devices.
 
 Share your folders with specific users or with a link.
 
-> [!powered-by] Powered by Seafile
-
 # Notes / Wiki / Knowledge Base
 
 Use Obsidian or any other markdown notes app and keep your notes synced between devices. You can also edit and publish your notes online.
 
 [[Sync Obsidian Vault]]
-
-> [!powered-by] Compatible with Obsidian, Notion, etc.
 
 # Publish Websites _(coming soon)_
 
