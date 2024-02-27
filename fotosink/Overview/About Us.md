@@ -10,7 +10,7 @@ Fotosink is a place to store photos, videos, documents and everything else.
 
 # Team
 
-We are a team of dedicated engineers striving to bring our user's data back under their control.
+We are a team of dedicated engineers dedicated to letting users' data live forever.
 
 # Contact Us
 

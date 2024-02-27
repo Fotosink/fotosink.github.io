@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview/Apps.md",
+                "file": "Overview/Pricing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Overview/Apps.md",
+                "file": "Overview/Pricing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Overview/Apps.md",
+                "file": "Overview/Pricing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overview/Apps.md"
+                "file": "Overview/Pricing.md"
               }
             }
           }
@@ -150,8 +150,15 @@
   },
   "active": "fcd77f9ac63a4d41",
   "lastOpenFiles": [
-    "Overview/About Us.md",
+    "Overview/Pricing.md",
+    "Overview/FAQ.md",
+    "Overview/Downloads.md",
     "Overview/Apps.md",
+    "Overview/Terms & Conditions.md",
+    "Overview/Reliability.md",
+    "Overview/Privacy Policy.md",
+    "Guides/Sync Obsidian Vault.md",
+    "Overview/About Us.md",
     "About.md",
     "Guides/Sync Your Obsidian Vault.md",
     "Reliability.md",

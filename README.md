@@ -1,7 +1,5 @@
-# [Landing Page](fotosink.com)
+# [Landing Page](fotosink.com): `./landing`
 
-Located at `./landing`.
+# [Documentation](fotosink.com/overview/about-us.html): `./fotosink`
 
-# [Documentation](fotosink.com/overview/about-us.html)
-
-Locaed at `./fotosink`.
+# Output: `./docs`

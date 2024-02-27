@@ -1,6 +1,6 @@
 {
   "settingsVersion": "1.8.0",
-  "makeOfflineCompatible": false,
+  "makeOfflineCompatible": true,
   "inlineAssets": false,
   "includePluginCSS": "dataview",
   "includeSvelteCSS": true,
@@ -39,7 +39,7 @@
   "graphMinNodeSize": 3,
   "graphMaxNodeSize": 7,
   "showDefaultTreeIcons": false,
-  "emojiStyle": "Native",
+  "emojiStyle": "Twemoji",
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
