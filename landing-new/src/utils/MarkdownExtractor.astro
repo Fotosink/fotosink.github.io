@@ -1,0 +1,41 @@
+---
+// Import statements if you're managing dependencies locally
+// For CDN-based imports, you would use a <script> tag in the HTML section below
+import { marked } from 'marked';
+import { useEffect, useState } from 'react';
+
+const extractContentUnderHeading = (markdown, headingText) => {
+  const tokens = marked.lexer(markdown);
+  const headingLevel = headingText.trim().split(' ')[0].length; // e.g., ### -> 3
+  let capture = false;
+  let content = [];
+
+  for (const token of tokens) {
+    if (token.type === 'heading' && token.depth === headingLevel && token.text === headingText) {
+      capture = true;
+      continue;
+    }
+    if (capture && token.type === 'heading' && token.depth <= headingLevel) {
+      break;
+    }
+    if (capture) {
+      content.push(token);
+    }
+  }
+
+  return marked.parser(content);
+};
+
+// Props: markdown (the Markdown content), headingText (the heading to look for)
+export default function MarkdownExtractor({ markdown, headingText }) {
+  const [content, setContent] = useState('');
+
+  useEffect(() => {
+    setContent(extractContentUnderHeading(markdown, headingText));
+  }, [markdown, headingText]);
+
+  return (
+    <div dangerouslySetInnerHTML={{ __html: content }}></div>
+  );
+}
+---
