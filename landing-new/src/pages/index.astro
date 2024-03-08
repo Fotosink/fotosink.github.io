@@ -6,15 +6,18 @@ import Hero from '../components/home/Hero.astro';
 import Services from '../components/home/Services.astro';
 import Testimonials from '../components/home/Testimonials.astro';
 import Layout from '../layouts/Layout.astro';
+
+import * as copy from '../../../content/copy.md';
+import {getHeading} from '../utils/utils.js'
 ---
 
 <Layout
-  description="Stone is a premium Astro theme specially designed for Business, Marketing, SaaS and Startup websites."
-  title="Stone · Premium Astro template"
+  description={getHeading(copy, '# About')}
+  title="Fotosink"
 >
   <Hero />
   <Services />
-  <Expertise />
+  <!-- <Expertise /> -->
   <About />
   <Testimonials />
   <Cta />

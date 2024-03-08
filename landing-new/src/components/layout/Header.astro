@@ -1,4 +1,8 @@
 ---
+import * as copy from '../../../../content/copy.md';
+import {getHeading} from '../../utils/utils.js';
+import Logo from './Logo.astro';
+
 const links = [
   {
     ref: '01',
@@ -37,14 +41,8 @@ const links = [
         href="/"
         class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2"
       >
-        <span class="sr-only">Stone</span>
-        <img
-          class="h-8 w-auto"
-          width="65"
-          height="40"
-          :src="$store.theme.isDark ? '/assets/logo-inverted.svg' : '/assets/logo.svg'"
-          alt="Stone"
-        />
+        <Logo/>
+        <span class="sr-only">Fotosink</span>
       </a>
     </div>
 
@@ -141,8 +139,7 @@ const links = [
         <p
           class="text-primary-950/70 dark:text-primary-200/70 max-w-sm text-xl italic leading-loose"
         >
-          <span class="font-medium">Stone</span> is a premium Astro theme specially designed for
-          Business, Marketing, SaaS and Startup websites.
+          {getHeading(copy, '# About')}
         </p>
       </div>
 
